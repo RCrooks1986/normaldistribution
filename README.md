@@ -11,3 +11,5 @@ $values (default = 100) - The number of values to generate.
 The numbers generated are not truly random as they use the mr_rand function as opposed to a truly random number generator.
 
 Generating more values may be slower (both for generation and for further processing) but may generate sets which are more reflective of the mean and standard deviation specified.
+
+Distribution is output in the $distribution array.
