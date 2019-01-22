@@ -16,3 +16,5 @@ The numbers generated are not truly random as they use the mr_rand function as o
 Generating more values may be slower (both for generation and for further processing) but may generate sets which are more reflective of the mean and standard deviation specified.
 
 Distribution is output in the $distribution array.
+
+The script can only generate values +/- 6.12 SDs from the mean, this is due to the range of random numbers than can be generated.
